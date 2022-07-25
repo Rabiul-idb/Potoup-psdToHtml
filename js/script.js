@@ -1,10 +1,20 @@
 
+
+// scroll top animation
  $('.scroll-top').click(function(){
         $('html,body').animate({
             scrollTop: 0,
             
-        }, 5000 );
+        }, 3000 ,'linear');
       });
+  // scroll top show hide
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 1000){
+      $('.scroll-top').fadeIn();
+    }else{
+      $('.scroll-top').fadeOut();
+    }
+  });
 
 const slideOutPanel = $('#slide-out-panel').SlideOutPanel({
     

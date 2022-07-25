@@ -1,0 +1,37 @@
+
+
+@media (max-width:1199.98px) {
+    /* read more button */
+    .read-more a{
+        padding: 5px 20px;
+    }
+    .slider-content p{
+        margin-bottom: 10px;
+    }
+    .about-software{
+        margin-top: -100px ;
+    }    
+}
+
+@media (max-width:1099.98px) {
+    .slider-content h1{
+        font-size: 30px;
+    }
+    .our-tab-content .ad-minim p{
+        font-size: 14px;
+    }
+    .about-software{
+        margin-top: -120px;
+    }  
+}
+@media (max-width:1040.98px) {
+    .slider-content{
+        padding-left: 75px;
+    }
+    .slider-img img{
+        width: 100%;
+    }
+    .about-software{
+        margin-top: -140px;
+    }  
+}
