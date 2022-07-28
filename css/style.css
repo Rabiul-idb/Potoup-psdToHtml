@@ -74,6 +74,7 @@ body{
 }
 .slider-content p{
     margin: 30px 40px 42px 0;
+    text-align: justify;
 }
 .slider-content .read-more a:hover{
     background-color: white;
@@ -188,6 +189,7 @@ body{
 }
 .our-tab-content .ad-minim p{
     font-size: 17px;
+    padding-left: 10px;
 }
 /* =========== why choose us  end===================== */
 
@@ -202,6 +204,7 @@ body{
     .work-content p{
         font-size: 17px;
         margin: 25px 0 70px 0;
+        text-align: justify;
     }
     .work-content a{
         text-decoration: none;
