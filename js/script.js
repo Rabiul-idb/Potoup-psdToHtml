@@ -16,6 +16,21 @@
     }
   });
 
+  $('.micon').click(function(){
+    $('.menu-bar').animate({
+      top: 0,
+    },1000);
+    $('.micon').hide();
+  });
+  
+  $('.close').click(function(){
+    $('.menu-bar').animate({
+      top: "-50px",
+    },1000);
+    $('.micon').show();
+  });
+  
+
 const slideOutPanel = $('#slide-out-panel').SlideOutPanel({
     
           // settings here

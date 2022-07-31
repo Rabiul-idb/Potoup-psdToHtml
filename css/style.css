@@ -32,6 +32,12 @@ body{
     display: flex;
     
 }
+.top-bar .menu-icon{
+    display: none;;
+}
+.top-bar .menu-bar{
+    display: none;;
+}
 .logo img{
     padding-top: 50px;
     padding-left: 50px;
@@ -133,6 +139,9 @@ body{
     }
     .abt-img img{
         width: 100%;
+    }
+    .about-software .show-xsm-device{
+        display: none;
     }
     
 /* ===========About software end===================== */

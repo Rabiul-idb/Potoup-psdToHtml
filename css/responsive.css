@@ -1,4 +1,6 @@
-
+:root{
+    scroll-behavior: auto;
+}
 
 @media (max-width:1199.98px) {
     /* read more button */
@@ -104,8 +106,9 @@
     padding: 5px 20px;
 }
     .slider-img img{
-        width: 120%;
+        width: 100%;
         margin-top: 5px;
+        margin-left: -30px;
     }
     .slider-content{
         margin-left: 30px;
@@ -116,9 +119,11 @@
     .slider-content p .hide-p{
         display: none;
     }
+
     .about-software{
        margin-top: -300px;
     } 
+    
     .about-software .abt-img img{
         margin-top: 140px;
         width: 120%;
@@ -152,5 +157,113 @@
 @media (max-width:660.98px){
     .about-software{
         margin-top: -360px;
+    }
+}
+
+
+
+@media (max-width:575.98px){
+   
+    
+    .top-bar .right-part{
+        display: none;
+    }
+    .top-bar .menu-icon{
+       display: block;
+       margin-left: auto;
+       margin-right: 30px;
+       margin-top: 8px;
+       font-size: 20px;
+      
+    }
+    .top-bar .menu-bar{
+        display: block;
+        background-color: green;
+        position: absolute;
+        top: -50px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .top-bar .menu-bar i,
+    .top-bar .menu-bar a{
+        text-decoration: none;
+        padding:0 10px;
+        color: white;
+    }
+    .logo img{
+        width: 80%;
+        padding-top: 10px;
+        padding-left: 20px;
+     }
+     .slider-content{
+         margin-left: 0;
+
+     }
+     .slider-content h1{
+         font-size: 25px;
+         margin-top: -7px;
+     }
+     
+    .slider-arrow a{
+        display: none;
+    }
+    .slider-content h1 br{
+        display: none;
+    }
+    .slider-img img{
+        display: none;
+    }
+    .about-software{
+        margin-top: -400px;
+     } 
+     .about-software .hide-xsm-device{
+        display: none;
+    }
+    .about-software .show-xsm-device{
+        display: block;
+    }
+    .about-software .show-xsm-device img{
+      margin-top: 20px;
+      width: 100%;
+    }
+     .choose-us{
+        padding: 20px 0px;
+        background-position: center;
+        background-size: 270%;
+     }
+     .our-tab-content{
+         margin-left: 10px;
+     }
+     .work-img img{
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+@media (max-width:360.98px){
+    .bg-img{
+        background-size: 110%;
+    }
+    .logo img{
+        width: 70%;
+    }
+    .slider-content p{
+        font-size: 15px;
+        margin-top: -5px;
+        margin-bottom: 0px;
+    }
+    .slider-content h1{
+        font-size: 23px;
+       
+    }
+    .about-software{
+        margin-top: -500px;
+    }
+    .choose-us{
+        background-size: 300%;
+    }
+    .our-tab-content .ad-minim p{
+        text-align: left;
     }
 }
