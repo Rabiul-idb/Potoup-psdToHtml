@@ -30,6 +30,7 @@
     $('.micon').show();
   });
   
+ 
 
 const slideOutPanel = $('#slide-out-panel').SlideOutPanel({
     
